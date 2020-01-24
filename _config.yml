@@ -1,0 +1,25 @@
+lang: tr
+title: NLTURK Wood theme
+description: >-
+  jekyll theme for wood products, pallet suppliers
+baseurl: ""
+url: ""
+
+google_analytics: null
+google_verification: bzi4ClrgY4Y8W2pZ3DIhAkyzHhOxHcFN6PBxZSSlwA8
+
+theme: null
+plugins:
+  - jekyll-feed
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

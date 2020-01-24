@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  erkan UNLUTURK -- @erkanunluturk
+
+# THANKS
+
+  <name>
+
+# TECHNOLOGY COLOPHON
+
+  CSS3, HTML5
+  Github Pages, Jekyll, TailwindCSS
