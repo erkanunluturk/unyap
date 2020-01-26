@@ -1,0 +1,44 @@
+<footer>
+  <div class="container px-8 py-16 mx-auto flex flex-wrap justify-end">
+    <div class="w-full md:w-1/3 md:mr-auto mb-8 md:mb-0">
+      <h4 class="text-lg font-semibold mb-4">Bize Ulaşın</h4>
+      <ul>
+        <li class="text-sm font-semibold mb-2">
+          Adres: <a class="text-gray-700 hover:text-black font-normal" href="https://google.com/{{ site.data.company.adress }}">{{ site.data.company.adress }}</a>
+        </li>
+        <li class="text-sm font-semibold mb-2">
+          Telefon: <a class="text-gray-700 hover:text-black font-normal" href="tel:{{ site.data.company.phone }}">{{ site.data.company.phone }}</a>
+        </li>
+        <li class="text-sm font-semibold mb-2">
+          Mail: <a class="text-gray-700 hover:text-black font-normal" href="mailto:{{ site.data.company.email }}">{{ site.data.company.email }}</a>
+        </li>
+      </ul>
+    </div>
+    <div class="w-1/2 md:w-1/6">
+      <h4 class="text-lg font-semibold mb-4">Hakkımızda</h4>
+      <ul>
+        {% for section in site.data.about %}
+          <li class="text-sm mb-2">
+            <a class="text-gray-700 hover:text-black font-normal" href="/about/#{{ section.url }}">{{ section.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="w-1/2 md:w-1/6">
+      <h4 class="text-lg font-semibold mb-4">Ürünler</h4>
+      <ul>
+        {% for product in site.data.products %}
+          <li class="text-sm mb-2">
+            <a class="text-gray-700 hover:text-black font-normal" href="/products/#{{ product.url }}">{{ product.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="bg-white">
+    <div class="container flex flex-col px-8 py-8 mx-auto">
+      <small class="text-xs">© 2020 {{ site.data.company.title }}, Tüm hakları saklıdır.</small>
+      <small class="text-xs">Designed by <a href="about.me/erkanunluturk">NLTURK</a></small>
+    </div>
+  </div>
+</footer>

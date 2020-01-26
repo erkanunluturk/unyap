@@ -1,0 +1,31 @@
+## Company About
+
+## Header text / none type
+- title: Biz Kimiz
+  subtitle: Hala büyüyor, hala basitleşiyoruz.
+  text: Fabrikaların, üretim tesislerinin ihtiyaçlarına yönelik hizmetler sunan, sevkiyat kalitesini artıran ve kendini sürekli olarak geliştiren Ünyap, girişimci, yenilikçi ve sorumluluk taşıyan vizyoner ruhuyla 2018 yılında  kurulmuştur. Her ebatta ve yüksek stok kapasitesi ile palet ve taşıma sandıkları tedarikini ve aynı zamanda özel ölçü ürünler yapmaktadır. Üretimde başarı ve sürekliliğin teminatı hizmette dürüstlük ve kalitedir prensibiyle çalışan Ünyap, gösterdiğiniz yakın ilgi ve desteğinizden ötürü teşekkür ederek sizlere bugün ve gelecekte hizmet vermeye devam edecektir...
+
+## Texts
+- type: other
+  title: Vizyonumuz
+  text: Müşteri, hissedar ve çalışanına artı değer sağlayan, ürün ve hizmetleri ile geniş kitlelere erişen, toplumsal sorumluluğunun bilincinde, değerlerine sadık, güvenilirliği, kalite yönetimi, yaygın hizmet ağı, ürün çeşitliliğinde öncülüğü, uzman personeli ve müşteri odaklı hizmet anlayışıyla ilk akla gelen ve tercih edilen ulusal bir TEDARIKÇI VE IMALATÇI FIRMA olmaktır.
+  url: vizyon
+
+- type: other
+  title: Misyonumuz
+  text: Topluma ve çevreye saygılı, verimli, etkin ve yüksek sorumluluk bilinci içerisinde çalışarak sürdürülebilir karlılığı sağlamak. Kendini sürekli geliştiren dinamik insan kaynağımızla profesyonel bir ekip çalışması içerisinde, güvenilir, yüksek kaliteli ürün ve hizmetler sunarak maksimum müşteri memnuniyetine ulaşmak.
+  url: misyon
+
+## Lists
+- type: list
+  title: Kalite Politikamız
+  list:
+    - title: Sektörümüzün vermiş olduğu bilinçle, günümüz şartlarında her türlü teknolojiyi kullanarak Taahhüt ettiğimiz işleri zamanında ve projelerine uygun olarak gerçekleştirmek
+    - title: Faaliyetlerimiz dolayısıyla sorumlusu olduğumuz yasalara ve mevzuatlara tavizsiz uymak
+    - title: Müşteri Memnuniyetini en üst düzeyde tutmak.
+    - title: İş yaptığımız kurumlarda sağladığımız güvenin, büyük bir sermaye olduğunun bilincinde olmak ve bu sermayeyi her geçen gün arttırmak.
+    - title: Tüm çalışanlarımıza gerekli bilgilendirme ve eğitimler yardımıyla kendilerinin, diğer çalışanların ve ziyaretçilerin sağlık ve güvenliklerini tehlikeye atmamayı temel görev olarak benimsetmek.
+    - title: Tüm faaliyetlerimiz kapsamında olası tehlikeli durum ve davranışlar ile ilgili risk değerlendirmelerini sistematik bir şekilde yaparak önleme kültürünü yerleştirmek.
+    - title: Tüm faaliyetlerimiz kapsamında , geri dönüştürülebilir atıklarımızı değerlendirmek, sınırlı olan doğal kaynak kullanımlarını azaltmak, çevreye zararlı atıklardan dolayı oluşacak kirliliği önlemek,canlı hayatı olumsuz etkilememek, çevreyi kirletmemek için gerekli tedbirleri almak.
+    - title: Kalite, İSG&Çevre Yönetim Sistemleri standartlarından taviz vermeden sürekli iyileştirmeyi sağlamak.
+  url: kalite

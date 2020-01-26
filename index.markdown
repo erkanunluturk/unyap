@@ -2,9 +2,24 @@
 layout: default
 ---
 
-<div id="__unyap">
-  <h1>Ünyap</h1>
-  <p>Web sayfamız yenileniyor, yakında tekrar bekleriz.</p>
-  <small>Mail:<a href="mailto:unyapkerestecilik@gmail.com">unyapkerestecilik@gmail.com</a></small>
-  <small>Telefon: <a href="tel:05375222945">+90 537 522 29 45</a></small>
-</div>
+{% include header.html
+  title="Uzun ömürlü, sağlam malzeme, minimum zayiat, maksimum verim."
+  description="Geniş ürün yelpazemiz ve profesyonel ekibimizle hemen hemen her sektörden müşteriye hizmet vermekte ve vermeye de devam ediyoruz."
+  image="home"
+%}
+
+<main>
+  <div id="features">
+    {% for feature in site.data.features %}
+      {% include feature.html
+        title=feature.title
+        text=feature.text
+        image=feature.image
+        reverse=feature.reverse
+      %}
+    {% endfor %}
+  </div>
+  {% include request.html %}
+</main>
+
+{% include footer.html %}

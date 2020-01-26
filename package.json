@@ -1,0 +1,15 @@
+{
+  "name": "unyap",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "postcss assets/css/application-dev.css -o assets/css/application.css && jekyll s",
+    "build": "postcss --env production assets/css/application.css --replace"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.0.5",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^7.1.0",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.1.4"
+  }
+}
