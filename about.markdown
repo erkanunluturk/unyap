@@ -52,7 +52,10 @@ navigation_order: 1
       </div>
     </div>
   </section>
-  {% include request.html %}
+  {% include request.html
+    title="Projeniz için kaliteli ve uygun fiyatlı bir hizmet mi arıyorsunuz?"
+    button="Teklif isteyin"
+  %}
 </main>
 
 {% include footer.html %}
