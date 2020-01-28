@@ -1,10 +1,15 @@
 ## Products List
 
-- name: Ahşap Palet
-  url: palet
+- title: Ahşap Palet
+  text: İşletmeniz nakliye veya depolama için yüksek kaliteli ahşap ambalaja ihtiyaç duyduğunda yardımcı olabiliriz. Çok çeşitli modeller sunuyoruz. İstenilen ölçülerde palet üretimi yapmaktayız.
+  image: palet
+  reverse: true
 
-- name: Taşıma sandığı
-  url: sandik
+- title: Taşıma sandığı
+  text: Proje ve ürünün ölçülerinize göre istediğiniz cins ağaçtan istenilen ölçü ve tasarımlarda palet, sandık, makara imalat ve satışı yapılmaktadır.
+  image: sandik
 
-- name: Ahşap makara
-  url: makara
+- title: Ahşap makara
+  text: Proje ve ürünün ölçülerinize göre istediğiniz cins ağaçtan istenilen ölçü ve tasarımlarda palet, sandık, makara imalat ve satışı yapılmaktadır.
+  image: makara
+  reverse: true

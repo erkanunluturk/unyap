@@ -1,10 +1,10 @@
 ## Features List
 
-- title: Daha iyi bir müşteri deneyimi
+- title: Kaliteli malzeme
   text: Altyapımız, yeteneklerimiz ve deneyimlerimiz eşsizdir, böylece müşteri gereksinimlerini karşılamamıza izin verir. Deneyimimizi ve altyapımızı sizin için çalıştırarak, maliyetleri artıran, yönetimi kolay bir program elde edersiniz.
-  image: musteri
+  image: kalite
   reverse: true
 
-- title: Özel ölçü üretim
+- title: Özel üretim
   text: Proje ve ürünün ölçülerinize göre istediğiniz cins ağaçtan istenilen ölçü ve tasarımlarda palet, sandık, makara imalat ve satışı yapılmaktadır.
   image: ozel
