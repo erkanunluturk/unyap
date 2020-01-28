@@ -1,5 +1,5 @@
-<section>
-  <div class="container md:px-8 md:py-16 mx-auto flex flex-col items-center {% if include.reverse %}md:flex-row-reverse{% else %}md:flex-row{% endif %}">
+<section id="{{ include.image }}">
+  <div class="container md:px-8 mx-auto flex flex-col items-center {% if include.reverse %}md:flex-row-reverse{% else %}md:flex-row{% endif %}">
     <div class="w-full p-8 md:p-0 md:w-1/2 {% if include.reverse %}md:pl-8 lg:pl-16{% else %}md:pr-8 lg:pr-16{% endif %}">
       <h4 class="text-lg md:text-2xl font-semibold mb-4">{{ include.title }}</h4>
       <p class="text-base">{{ include.text }}</p>
