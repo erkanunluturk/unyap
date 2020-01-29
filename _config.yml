@@ -2,8 +2,8 @@ lang: tr
 title: NLTURK Wood theme
 description: >-
   jekyll theme for wood products, pallet suppliers
-baseurl: ""
-url: ""
+#baseurl: ""
+url: "https://un-yap.com"
 
 google_analytics: UA-157261130-1
 google_verification: bzi4ClrgY4Y8W2pZ3DIhAkyzHhOxHcFN6PBxZSSlwA8
