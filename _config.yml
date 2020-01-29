@@ -10,7 +10,7 @@ google_verification: bzi4ClrgY4Y8W2pZ3DIhAkyzHhOxHcFN6PBxZSSlwA8
 
 theme: null
 plugins:
-  - jekyll-feed
+  - jekyll-sitemap
 
 exclude:
   - .sass-cache/
