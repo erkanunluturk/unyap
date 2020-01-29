@@ -5,7 +5,7 @@ description: >-
 baseurl: ""
 url: ""
 
-google_analytics: null
+google_analytics: UA-157261130-1
 google_verification: bzi4ClrgY4Y8W2pZ3DIhAkyzHhOxHcFN6PBxZSSlwA8
 
 theme: null
