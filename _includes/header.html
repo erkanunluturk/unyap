@@ -1,11 +1,4 @@
-<header
-  {% if include.video %}
-    class="bg-black relative"
-  {% else %}
-    class="bg-black bg-no-repeat bg-center bg-cover"
-    style="background-image: url(/assets/images/header/{{ include.image }}.jpeg)"
-  {% endif %}
->
+<header class="relative bg-black">
   {% if include.video %}
     <video
       class="absolute h-full w-full object-cover z-10"
@@ -17,13 +10,13 @@
       <source src="/assets/images/header/{{ include.video }}.mp4" type="video/mp4">
       Tarayıcınız HTML5 video özelliğini desteklemiyor.
     </video>
+  {% else %}
+    <img
+      class="absolute h-full w-full object-cover z-10"
+      src="/assets/images/header/{{ include.image }}.jpeg"
+    >
   {% endif %}
-  <div
-    {% if include.video %}
-      class="relative z-20"
-    {% endif %}
-    style="background-color: rgba(0, 0, 0, 0.7)"
-  >
+  <div class="relative z-20" style="background-color: rgba(0, 0, 0, 0.7)">
     <nav>
       <div class="container p-4 md:px-8 md:py-8 mx-auto flex items-center">
         <a aria-label="{{ site.data.company.title }}" href="/">
