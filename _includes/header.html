@@ -1,7 +1,6 @@
 <header
   {% if include.video %}
     class="bg-black relative"
-    style="height: 38rem"
   {% else %}
     class="bg-black bg-no-repeat bg-center bg-cover"
     style="background-image: url(/assets/images/header/{{ include.image }}.jpeg)"
@@ -9,18 +8,19 @@
 >
   {% if include.video %}
     <video
-      class="block h-full w-full object-cover"
+      class="absolute h-full w-full object-cover z-10"
       autoplay="autoplay"
       muted="muted"
       loop="loop"
-      poster="/assets/images/header/{{ include.video }}.jpeg">
+      poster="/assets/images/header/{{ include.video }}.jpeg"
+    >
       <source src="/assets/images/header/{{ include.video }}.mp4" type="video/mp4">
       Tarayıcınız HTML5 video özelliğini desteklemiyor.
     </video>
   {% endif %}
   <div
     {% if include.video %}
-      class="absolute top-0 bottom-0 right-0 left-0"
+      class="relative z-20"
     {% endif %}
     style="background-color: rgba(0, 0, 0, 0.7)"
   >
