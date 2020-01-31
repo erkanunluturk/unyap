@@ -1,28 +1,54 @@
-<header class="bg-black bg-no-repeat bg-center bg-cover" style="background-image: url(/assets/images/header/{{ include.image }}.jpg);">
-  <nav>
-    <div class="container p-4 md:px-8 md:py-8 mx-auto flex items-center">
-      <a aria-label="{{ site.data.company.title }}" href="/">
-        {% include_relative assets/images/logo.svg %}
-      </a>
-      <div class="flex-grow overflow-hidden ml-4">
-        <nav class="flex items-center overflow-x-auto whitespace-no-wrap">
-          {% assign nav_pages = site.html_pages | where: 'show_in_navigation', true | sort: 'navigation_order' %}
-          {% for nav_page in nav_pages %}
-            <a class="uppercase text-sm md:text-base text-white hover:text-orange-600 p-2 md:p-3" href="{{ nav_page.url }}">{{ nav_page.title }}</a>
-          {% endfor %}
-        </nav>
+<header
+  {% if include.video %}
+    class="bg-black relative"
+    style="height: 38rem"
+  {% else %}
+    class="bg-no-repeat bg-center bg-cover"
+    style="background-image: url(/assets/images/header/{{ include.image }}.jpeg)"
+  {% endif %}
+>
+  {% if include.video %}
+    <video
+      class="block h-full w-full object-cover"
+      autoplay="autoplay"
+      muted="muted"
+      loop="loop"
+      poster="/assets/images/header/{{ include.video }}.jpeg">
+      <source src="/assets/images/header/{{ include.video }}.mp4" type="video/mp4">
+      Tarayıcınız HTML5 video özelliğini desteklemiyor.
+    </video>
+  {% endif %}
+  <div
+    {% if include.video %}
+      class="absolute top-0 bottom-0 right-0 left-0"
+    {% endif %}
+    style="background-color: rgba(0, 0, 0, 0.7)"
+  >
+    <nav>
+      <div class="container p-4 md:px-8 md:py-8 mx-auto flex items-center">
+        <a aria-label="{{ site.data.company.title }}" href="/">
+          {% include_relative assets/images/logo.svg %}
+        </a>
+        <div class="flex-grow overflow-hidden ml-4">
+          <nav class="flex items-center overflow-x-auto whitespace-no-wrap">
+            {% assign nav_pages = site.html_pages | where: 'show_in_navigation', true | sort: 'navigation_order' %}
+            {% for nav_page in nav_pages %}
+              <a class="uppercase text-sm md:text-base text-white hover:text-orange-600 p-2 md:p-3" href="{{ nav_page.url }}">{{ nav_page.title }}</a>
+            {% endfor %}
+          </nav>
+        </div>
       </div>
-    </div>
-  </nav>
-  <section>
-    <div class="container px-8 pt-24 pb-32 mx-auto">
-      <hgroup class="max-w-xl">
-        {% if include.subtitle %}
-          <small class="text-white text-base md:text-lg">{{ include.subtitle }}</small>
-        {% endif %}
-        <h1 class="text-white text-3xl md:text-5xl leading-tight tracking-tight font-bold mb-4">{{ include.title }}</h1>
-        <p class="text-white text-base md:text-lg">{{ include.description }}</p>
-      </hgroup>
-    </div>
-  </section>
+    </nav>
+    <section>
+      <div class="container px-8 pt-24 pb-32 mx-auto">
+        <hgroup class="max-w-xl">
+          {% if include.subtitle %}
+            <small class="text-white text-base md:text-lg">{{ include.subtitle }}</small>
+          {% endif %}
+          <h1 class="text-white text-3xl md:text-5xl leading-tight tracking-tight font-bold mb-4">{{ include.title }}</h1>
+          <p class="text-white text-base md:text-lg">{{ include.description }}</p>
+        </hgroup>
+      </div>
+    </section>
+  </div>
 </header>
