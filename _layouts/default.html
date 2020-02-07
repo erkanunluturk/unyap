@@ -34,7 +34,7 @@
 </head>
 <body>
   {{ content }}
-   {% if jekyll.environment == 'production' and site.google_analytics %}
+  {% if jekyll.environment == 'production' and site.google_analytics %}
     <script src="https://www.google-analytics.com/analytics.js" async></script>
     <script>
       window.ga = function() {
@@ -46,6 +46,6 @@
       ga('set','transport','beacon');
       ga('send', 'pageview')
     </script>
-   {% endif %}
+  {% endif %}
 </body>
 </html>
