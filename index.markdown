@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% include header.html
-  title="Uzun ömürlü, sağlam malzeme, minimum zayiat, maksimum verim."
+  title="Minimum zayiat, maksimum verim."
   description="Geniş ürün yelpazemiz ve profesyonel ekibimizle hemen hemen her sektörden müşteriye hizmet vermekte ve vermeye de devam ediyoruz."
   image="home"
 %}
