@@ -1,7 +1,7 @@
 ---
 layout: default
 
-title: Şirket
+title: Hakkımızda
 
 show_in_navigation: true
 navigation_order: 1
