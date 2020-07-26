@@ -1,5 +1,6 @@
 ---
 layout: default
+description: Ünyap 2018 yılında Orman ürünleri sektörüne adım atarak hassasiyet ve tempo ile faaliyetlerini devam ettirmektedir.
 ---
 
 {% include header.html
