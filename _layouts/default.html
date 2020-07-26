@@ -12,8 +12,7 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="robots" content="index, follow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{page.title}} | {% endif %}{% if site.data.company.title %}{{site.data.company.title}}{% else %}{{site.title}}{% endif %}</title>
-  <meta name="description" content="{% if site.data.company.description %}{{site.data.company.description}}{% else %}{{site.description}}{% endif %}">
+  {% seo %}
   <meta name="google-site-verification" content="{{ site.google_verification }}">
   <link rel="canonical" href="{{ site.url }}">
   <link rel="manifest" href="{{ "/manifest.json" | relative_url }}">
