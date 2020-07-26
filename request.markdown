@@ -2,6 +2,7 @@
 layout: default
 
 title: Teklif Alın
+description: Bir fiyat teklifi isteyin
 
 show_in_navigation: false
 ---

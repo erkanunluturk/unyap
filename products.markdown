@@ -2,6 +2,7 @@
 layout: default
 
 title: Ürünler
+description: Sipariş için bize ulaşın
 
 show_in_navigation: true
 navigation_order: 2

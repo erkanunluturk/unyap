@@ -2,6 +2,7 @@
 layout: default
 
 title: Hakkımızda
+description: Fabrikaların, üretim tesislerinin ihtiyaçlarına yönelik hizmetler sunan, sevkiyat kalitesini artıran ve kendini sürekli olarak geliştiren Ünyap, girişimci, yenilikçi ve sorumluluk taşıyan vizyoner ruhuyla 2018 yılında kurulmuştur.
 
 show_in_navigation: true
 navigation_order: 1
