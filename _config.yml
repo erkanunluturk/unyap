@@ -36,6 +36,15 @@ google_adsense: ca-pub-8324449392278241
 # Build settings
 theme: null
 permalink: pretty
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
 
 plugins:
   - jekyll-feed
