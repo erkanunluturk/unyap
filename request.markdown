@@ -1,6 +1,4 @@
 ---
-layout: default
-
 title: Teklif Alın
 description: Bir fiyat teklifi isteyin
 

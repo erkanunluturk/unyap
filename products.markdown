@@ -1,6 +1,4 @@
 ---
-layout: default
-
 title: Ürünler
 description: Sipariş için bize ulaşın
 

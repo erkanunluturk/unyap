@@ -1,6 +1,4 @@
 ---
-layout: default
-
 title: Bize Ulaşın
 
 show_in_navigation: true
